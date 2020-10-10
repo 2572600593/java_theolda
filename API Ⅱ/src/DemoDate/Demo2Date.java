@@ -5,7 +5,7 @@ import java.util.Date;
 public class Demo2Date {
 
     public static void main(String[] args) {
-        demo3();
+        demo2();
     }
 
     /*
