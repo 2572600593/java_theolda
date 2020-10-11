@@ -19,7 +19,7 @@ public class CaseBirthday {
     public static void main(String[] args) throws ParseException {
         // 1.Scanner
         Scanner sc = new Scanner(System.in);
-        System.out.println("请输入出生日期");
+        System.out.println("请输入出生日期");  // 格式：yyyy-MM-dd
         String birthdayDateString = sc.next();
         // 2.parse
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
