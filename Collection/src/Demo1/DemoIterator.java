@@ -14,9 +14,9 @@ public class DemoIterator {
         // 添加元素到集合
         coll.add("111");
         coll.add("aaa");
+
         // 使用迭代器遍历
         Iterator<String> it = coll.iterator();  // 获取迭代器的实现类对象，并且把指针(索引)指向集合的-1位置
-
         while(it.hasNext()) {  // 判断有没有下一个元素
             String s = it.next();  // 取出集合终点下一个元素
             System.out.println(s);
