@@ -41,12 +41,12 @@ public class Case {
                 rest.add(pockets.get(i));
             }
             else {
-                if(i % 3 == 0) {
-                    player1.add(pockets.get(i));
-                }if(i % 3 == 1) {
-                    player2.add(pockets.get(i));
-                }if(i % 3 == 2) {
-                    player3.add(pockets.get(i));
+                        if(i % 3 == 0) {
+                            player1.add(pockets.get(i));
+                        }if(i % 3 == 1) {
+                            player2.add(pockets.get(i));
+                        }if(i % 3 == 2) {
+                            player3.add(pockets.get(i));
                 }
             }
         }

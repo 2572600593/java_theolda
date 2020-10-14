@@ -6,7 +6,7 @@ package DemoHashSet;
  */
 public class DemoHashCode {
     public static void main(String[] args) {
-//        P类继承了Object类，所有可以是要Object类的hashCode方法
+//        P类继承了Object类，所有可以使用Object类的hashCode方法
         Person p1 = new Person();
         int i = p1.hashCode();
         System.out.println(i);
