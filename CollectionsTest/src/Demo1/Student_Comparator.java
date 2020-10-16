@@ -1,13 +1,14 @@
 package Demo1;
 
-public class Person {
+public class Student_Comparator {
+
     private String name;
     private int age;
 
-    public Person() {
+    public Student_Comparator() {
     }
 
-    public Person(String name, int age) {
+    public Student_Comparator(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -16,13 +17,21 @@ public class Person {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public int getAge() {
         return age;
     }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     @Override
     public String toString() {
-        return "Person{" +
+        return "Student{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
