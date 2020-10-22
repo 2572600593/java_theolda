@@ -7,7 +7,7 @@ public class Demo1throw {
         int re = getElement(arr,4);
     }
 
-    public static int getElement(int a[],int index) {
+    public static int getElement(int a[],int index) throws ArrayIndexOutOfBoundsException {
         if(index > 3 || index < 0) {
             throw new ArrayIndexOutOfBoundsException("数组越界");
         }
